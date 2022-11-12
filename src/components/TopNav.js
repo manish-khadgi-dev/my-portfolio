@@ -7,7 +7,7 @@ export const TopNav = () => {
       <nav class="navbar navbar-expand-md bg-none">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <source src={Logo} alt="" width="100px" />
+            <img src={Logo} alt="" width="80px" />
           </a>
           <button
             class="navbar-toggler"
@@ -22,9 +22,9 @@ export const TopNav = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+              <li class="nav-item text-warning">
                 <a class="nav-link active" aria-current="page" href="#skill">
-                  Skill
+                  Skills
                 </a>
               </li>
               <li class="nav-item">
