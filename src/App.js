@@ -30,12 +30,13 @@ function App() {
         <Contact />
 
         {/* <!-- Footer --> */}
-        <Layout />
 
         <a href="#navbar" id="arrow">
           <i class="fa-solid fa-arrow-up"></i>
         </a>
       </div>
+
+      {/* Footer */}
     </Layout>
   );
 }

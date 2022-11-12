@@ -1,5 +1,5 @@
 import React from "react";
-import ManishImg from "../manish-img.png";
+import ManishImg from "../assets/manish-img.png";
 
 export const Hero = () => {
   return (
@@ -7,7 +7,7 @@ export const Hero = () => {
       <div class="container">
         <div class="row py-5 ">
           <div class="col-5 text-centers order-md-2">
-            <img src={ManishImg} alt="my image" width="200%" />
+            <img src={ManishImg} alt="my image" width="100%" />
           </div>
           <div class="col-md-7 mt-5 pt-5">
             Hi I am <span class="fw-bold">Manish Khadgi</span>

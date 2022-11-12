@@ -1,5 +1,5 @@
 import React from "react";
-import ManishImg from "../manish-img.png";
+import ManishImg from "../assets/manish-img.png";
 
 export const AboutMe = () => {
   return (
