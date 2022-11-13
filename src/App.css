@@ -4,19 +4,18 @@
     color: gold;
 }
 
-.navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
-    color: gold !important;
-}
 
 .topNav {
 
-    position: relative; 
-
-    
-    background: rgb(140, 77, 202);
-  
+    background: rgb(110, 103, 103);
 }
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: gold !important;
+    
+}
+
 
 .hero {
    
