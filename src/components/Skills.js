@@ -19,13 +19,13 @@ export const Skills = () => {
               <i class="fa-brands fa-css3 text-primary"> </i> CSS
             </div>
             <div>
-              <i class="fa-brands fa-js text-danger"> </i> JAVASCRIPT
+              <i class="fa-brands fa-js text-dark bg-warning"> </i> JAVASCRIPT
             </div>
             <div>
-              <i class="fa-brands fa-php"> </i> PHP
+              <i class="fa-brands fa-react text-primary bg-dark"></i> React
             </div>
             <div>
-              <i class="fa-brands fa-github"> </i>GITHUB
+              <i class="fa-brands fa-github text-white bg-dark"> </i>GITHUB
             </div>
           </div>
         </div>

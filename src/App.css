@@ -54,6 +54,7 @@
 
 .icons div {
     margin-bottom: 2rem;
+    margin-right: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,4 +88,11 @@
     bottom: 30px;
     right: 20px;
     font-size: 3rem;
+}
+
+
+
+
+.main-layout{
+    min-height: 75vh;
 }

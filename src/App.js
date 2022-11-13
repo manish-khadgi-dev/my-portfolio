@@ -6,38 +6,61 @@ import { Projects } from "./components/Projects";
 import { AboutMe } from "./components/AboutMe";
 import { Contact } from "./components/Contact";
 import { Layout } from "./components/Layout";
-import { TopNav } from "./components/TopNav";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Layout>
-      <div class="wrapper">
-        {/* <!-- navbar --> */}
-        <TopNav />
-        {/* <!-- hero section --> */}
-        <Hero />
+    <div class="wrapper">
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Layout>
+                <Hero />
+              </Layout>
+            }
+          />
+          <Route
+            path="/skills"
+            element={
+              <Layout>
+                <Skills />
+              </Layout>
+            }
+          />
+          <Route
+            path="/projects"
+            element={
+              <Layout>
+                <Projects />
+              </Layout>
+            }
+          />
+          <Route
+            path="/about-me"
+            element={
+              <Layout>
+                <AboutMe />
+              </Layout>
+            }
+          />
+          <Route
+            path="/contactme"
+            element={
+              <Layout>
+                <Contact />
+              </Layout>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
 
-        {/* <!-- Skills --> */}
-        <Skills />
-
-        {/* <!-- Projects -->  */}
-        <Projects />
-
-        {/* <!-- aboutme --> */}
-        <AboutMe />
-
-        {/* <!-- contact me  --> */}
-        <Contact />
-
-        {/* <!-- Footer --> */}
-
-        <a href="#navbar" id="arrow">
-          <i class="fa-solid fa-arrow-up"></i>
-        </a>
-      </div>
-
-      {/* Footer */}
-    </Layout>
+      <a href="#navbar" id="arrow">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
   );
 }
 

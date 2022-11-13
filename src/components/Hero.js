@@ -3,15 +3,15 @@ import ManishImg from "../assets/manish-img.png";
 
 export const Hero = () => {
   return (
-    <section class="hero">
-      <div class="container">
-        <div class="row py-5 ">
-          <div class="col-5 text-centers order-md-2">
-            <img src={ManishImg} alt="my image" width="100%" />
+    <section className="hero py-5 mt-5">
+      <div className="container">
+        <div className="row py-5 ">
+          <div className="col-md-5 text-center order-md-2">
+            <img src={ManishImg} alt="aboutme" width="60%" />
           </div>
-          <div class="col-md-7 mt-5 pt-5">
-            Hi I am <span class="fw-bold">Manish Khadgi</span>
-            <div class="mt-2 mb-5 fs-5 fw-bold">
+          <div className="col-md-7 mt-5 pt-5">
+            Hi I am <span className="fw-bold">Manish Khadgi</span>
+            <div className="mt-2 mb-5 fs-5 fw-bold">
               Software Engineer | App developer
             </div>
             <p>
@@ -20,8 +20,8 @@ export const Hero = () => {
               optio neque alias assumenda, in dolor! Ad similique quidem dolores
               magni quasi.
             </p>
-            <button class="btn btn-danger">
-              Download Resume <i class="fa-solid fa-download"></i>
+            <button className="btn btn-danger">
+              Download Resume <i className="fa-solid fa-download"></i>
             </button>
           </div>
         </div>
