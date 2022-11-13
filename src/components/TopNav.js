@@ -1,55 +1,26 @@
 import React from "react";
 import Logo from "../assets/manish-img-logo.png";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
 export const TopNav = () => {
   return (
-    <div id="navbar" class="topNav">
-      <nav class="navbar navbar-expand-md bg-none">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src={Logo} alt="" width="80px" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item text-warning">
-                <a class="nav-link active" aria-current="page" href="#skill">
-                  Skills
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#projects">
-                  Project
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#aboutme">
-                  About
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#contactme"
-                >
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <Navbar expand="md" className="topNav" id="navbar" collapseOnSelect>
+      <Container>
+        <Navbar.Brand href="#home">
+          <img src={Logo} alt="" width="80px" />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link href="#skill">Skills</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#aboutme">About Me</Nav.Link>
+            <Nav.Link href="#contactme">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
