@@ -5,17 +5,14 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
-export const TopNav = () => {
+export const Items = () => {
   return (
     <Navbar expand="md" className="topNav" id="navbar" collapseOnSelect>
       <Container>
         <Link to="/">
           <img src={Logo} alt="" width="80px" />
         </Link>
-        <Navbar.Toggle
-          aria-controls="basic-navbar-nav"
-          className="toggle-bar"
-        />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto gap-4 fs-5">
             <Link className="nav-link text-info " to="/skills">

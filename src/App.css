@@ -1,19 +1,7 @@
 .wrapper{
-    background: rgb(0, 0, 0);
+    background:#01050b;
     /* color: white; */
-    color: gold;
-}
-
-
-.topNav {
-
-    background: rgb(110, 103, 103);
-}
-
-.navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
-    color: gold !important;
-    
+    color:#8892b0;
 }
 
 
@@ -22,13 +10,15 @@
     min-height: 60vh;
 }
 
-.hero img {
-    max-width: 600px;
-    border-radius: 50%;
+.topNav img {
+position: relative;
+left: -20px;
 
-  
-    
 }
+.topNav .toggle-bar{
+    background: rgb(179, 162, 15);
+}
+
 
 .title {
     font-size: 2rem;
@@ -40,8 +30,8 @@
 }
 
 .title span {
-    border-bottom: 5px solid yellowgreen;
-    padding: 0.5rem 1rem;
+    border-bottom: 5px solid rgba(31, 225, 219, 0.707);
+    padding: 0.5rem 0.2rem;
 }
 
 
@@ -50,6 +40,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+   
 }
 
 .icons div {
@@ -64,35 +55,30 @@
     font-size: 4rem;
 }
 
-.fa-figma {
-    background: linear-gradient(purple, blue, red);
-}
 
 
-/* Project Section */
-.projects {
- 
 
-}
+
 
 .contact i {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
-.contact {
-   
-}
 
 #arrow {
     position: fixed;
-    bottom: 30px;
-    right: 20px;
+    bottom: 80px;
+    right: 30px;
     font-size: 3rem;
+    background: #3051b26a;
+    border-radius: 20px;
+    color: rgba(245, 245, 245, 0.359);
 }
 
 
 
 
 .main-layout{
-    min-height: 75vh;
+    min-height: 68vh;
 }
+
