@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export const Hero = ({}) => {
   return (
-    <section className="hero py-5 mt-5">
+    <section className="hero">
       <div className="container">
         <div className="row py-5 ">
           <div className="col-md-9  pt-5 text-info">
