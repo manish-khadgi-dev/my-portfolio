@@ -2,30 +2,38 @@ import React from "react";
 
 export const Skills = () => {
   return (
-    <section id="skill" class="container py-4">
-      <div class="row">
-        <div class="col">
+    <section id="skill" className="container py-4">
+      <div className="row">
+        <div className="col">
           {/* <!-- title --> */}
-          <div class="title">
+          <div className="title">
             <span>Skills</span>
           </div>
 
           {/* <!-- icons --> */}
-          <div class="icons">
+          <div className="icons">
             <div>
-              <i class="fa-brands fa-html5 text-danger"> </i> HTML
+              <i className="fa-brands fa-html5 text-danger"> </i> HTML5
             </div>
             <div>
-              <i class="fa-brands fa-css3 text-primary"> </i> CSS
+              <i className="fa-brands fa-css3 text-primary"> </i> CSS
             </div>
             <div>
-              <i class="fa-brands fa-js text-dark bg-warning"> </i> JAVASCRIPT
+              <i className="fa-brands fa-js text-dark bg-warning"> </i>{" "}
+              Javascript ES6
             </div>
             <div>
-              <i class="fa-brands fa-react text-primary bg-dark"></i> React
+              <i className="fa-brands fa-react text-primary bg-dark"></i> React
             </div>
             <div>
-              <i class="fa-brands fa-github text-white bg-dark"> </i>GITHUB
+              <i className="fa-brands fa-github text-white bg-dark"> </i>Github
+            </div>
+            <div>
+              <i className="fa-solid fa-terminal text-white"></i> Terminal
+            </div>
+            <div>
+              <i class="fa-solid fa-mobile-screen-button text-primary"></i>{" "}
+              Responsive <p>design</p>
             </div>
           </div>
         </div>

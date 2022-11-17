@@ -7,7 +7,7 @@ export const Hero = ({}) => {
     <section className="hero">
       <div className="container">
         <div className="row py-5 ">
-          <div className="col-md-9  pt-5 text-info">
+          <div className="col-md-9  pt-3 text-info">
             Hi, i am <p />
             <span className="fw-bold text-white">
               <motion.h1
@@ -29,15 +29,17 @@ export const Hero = ({}) => {
               </motion.h2>
             </div>
             <p className="fs-8">
-              I'm a Software Developer from Sydney, Australia with solid
-              experience in building complex application with modern technlogy.
+              I'm a multidisciplinary developer and designer from Sydney,
+              Australia with a passion for creating engaging, entertaining user
+              experience.
             </p>
             <a href={resume} download>
               <motion.button
-                className="btn btn-dark text-white mt-3"
+                className="btn btn-dark text-white mt-5"
                 animate={{ x: [0, 100, 0] }}
+                whileHover={{ scale: 1.3, originX: 0, color: "#e62020" }}
               >
-                Download Resume <i className="fa-solid fa-download"></i>
+                Download Resume <i className="fa-solid fa-download "></i>
               </motion.button>
             </a>
           </div>

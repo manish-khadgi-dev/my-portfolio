@@ -13,16 +13,19 @@
 .topNav img {
 position: relative;
 left: -20px;
-
 }
+
+
 .topNav .toggle-bar{
-    background: rgb(179, 162, 15);
+    background: rgba(222, 190, 8, 0.805);
+    color: rgba(11, 196, 224, 0.947);
+
 }
 
 
 .title {
     font-size: 2rem;
-    font-weight: bolder;
+    font-weight: lighter;
     text-align: center;
     margin-top: 2rem;
     letter-spacing: 0.1rem;
@@ -36,11 +39,15 @@ left: -20px;
 
 
 .icons {
+    margin-top: 5%;
     font-size: 1rem;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-   
+   padding: 5%;
+}
+.icons a:hover{
+    background-color: aqua;
 }
 
 .icons div {
@@ -69,16 +76,15 @@ left: -20px;
     position: fixed;
     bottom: 80px;
     right: 30px;
-    font-size: 3rem;
-    background: #3051b26a;
+    font-size: 2rem;
+    background: #d0d1d619;
     border-radius: 20px;
-    color: rgba(245, 245, 245, 0.359);
+    color: rgba(19, 211, 228, 0.789);
+    border-color: #02d5ca;
+    border-style: solid;
 }
-
-
 
 
 .main-layout{
-    min-height: 68vh;
+    min-height: 65vh;
 }
-

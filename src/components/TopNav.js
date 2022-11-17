@@ -1,17 +1,24 @@
 import React from "react";
 import Logo from "../assets/manish-img-logo.png";
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export const TopNav = () => {
   return (
     <Navbar expand="md" className="topNav" id="navbar" collapseOnSelect>
       <Container>
         <Link to="/">
-          <img src={Logo} alt="" width="80px" />
+          <motion.img
+            src={Logo}
+            alt=""
+            width="80px"
+            whileHover={{ scale: 1.5 }}
+          />
         </Link>
+
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           className="toggle-bar"
@@ -19,16 +26,24 @@ export const TopNav = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto gap-4 fs-5">
             <Link className="nav-link text-info " to="/skills">
-              Skills
+              <motion.div whileHover={{ scale: 1.5, originX: 0 }}>
+                Skills
+              </motion.div>
             </Link>
             <Link className="nav-link text-info" to="/projects">
-              Projects
+              <motion.div whileHover={{ scale: 1.5, originX: 0 }}>
+                Projects
+              </motion.div>
             </Link>
             <Link className="nav-link text-info" to="/about-me">
-              About Me
+              <motion.div whileHover={{ scale: 1.5, originX: 0 }}>
+                About
+              </motion.div>
             </Link>
             <Link className="nav-link text-info" to="/contactme">
-              Contact
+              <motion.div whileHover={{ scale: 1.5, originX: 0 }}>
+                Contact
+              </motion.div>
             </Link>
           </Nav>
         </Navbar.Collapse>
