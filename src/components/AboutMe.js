@@ -3,26 +3,30 @@ import ManishImg from "../assets/manish-img.png";
 
 export const AboutMe = () => {
   return (
-    <section id="aboutme" class="container">
-      <div class="title">
+    <section id="aboutme" className="container">
+      <div className="title">
         <span>About Me</span>
       </div>
-      <div class="row py-4">
-        <div class="col-md-4">
-          <img src={ManishImg} alt="aboutme" width="100%" />
+      <div className="row py-4">
+        <div className="col-md-4">
+          <img src={ManishImg} alt="aboutme" width="90%" />
         </div>
-        <div class="col-md-8">
+        <div className="col-md-8">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eaque
-            commodi error autem atque repudiandae esse aut voluptas corporis
-            ducimus tenetur, magnam repellat tempore amet asperiores recusandae
-            reprehenderit eius non.
+            Hello! My name is Manish Khadgi. I graduated from Federation
+            University in Bachelors of Information Teachnology. Currently, I am
+            enrolled in Dented Code Academy Bootcamp to pursue career in
+            Software Development.I enjoy developing live Application on the
+            internet.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
-            earum harum ipsa ab ullam, tempora inventore neque qui esse? Quam,
-            in minus velit rem temporibus laudantium ratione consequuntur
-            quibusdam sapiente!
+            Other than coding, I spent most of my free time playing music or
+            listening to podcast. I also create mix and master music and beats
+            using Ableton live. Please feel free to explore my youtube channel
+            <a href="https://www.youtube.com/channel/UC4kLCi4RWB2Iw5K2yYwBZpQ  ">
+              {" "}
+              Manish Khadgi.
+            </a>
           </p>
         </div>
       </div>
