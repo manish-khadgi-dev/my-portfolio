@@ -1,6 +1,6 @@
 import React from "react";
 import resume from "../assets/Resume-Manish-Khadgi.pdf";
-// import Video from "../assets/background-video.mp4";
+
 import { motion } from "framer-motion";
 
 export const Hero = ({}) => {

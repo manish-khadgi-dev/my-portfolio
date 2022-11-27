@@ -1,24 +1,20 @@
 .wrapper{
     background:#01050b;
 
-    color:#8892b0;
-   
- 
-   
+    color:#8892b0;  
 }
 
-a {
+ a {
 
     text-decoration: none !important;
-}
+  }
 
  /* Hero section */
-
 
 .hero {
    
     min-height:83vh;
-}
+    }
 
 div.col-md-9.pt-3.mt-5{
   
@@ -43,7 +39,9 @@ left: -5px;
 }
 
 .topNav{
-    background: rgba(4, 10, 11, 0.744);
+    background: rgba(58, 55, 55, 0.344);
+    margin-top: -10px;
+    
    
 
 }
@@ -72,7 +70,7 @@ left: -5px;
 
 div.col-md-6 img{
     position: relative;
-    left: 95px;
+    left: 135px;
 }
 
 
@@ -146,7 +144,10 @@ i:hover{
 
 .footer{
     background: rgba(58, 55, 55, 0.344);
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
+
 }
 
 
@@ -181,13 +182,23 @@ div#basic-navbar-nav.navbar-collapse.collapse.show #rectangle{
 } */
 
 /* Video CSS */
-.showcase video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 97%;
-   
-    object-fit: cover;
+/* .showcase video {
+    position:absolute ;
+    width: 260%;
+    left: 10;
+    height: 99%; 
     opacity: 0.3;
+} */
+
+.showcase video{
+   position: absolute;
+   /* width: 100%; */
+   left: 1px;
+   width: 99%;
+   opacity: 0.4;
+   margin-top: 100px;
+   /* height: 100px; */
+   
+   /* min-height: 100vh; */
+
 }

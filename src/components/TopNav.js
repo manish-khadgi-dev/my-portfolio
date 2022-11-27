@@ -10,13 +10,14 @@ export const TopNav = () => {
   return (
     <Navbar expand="md" className="topNav" id="navbar" collapseOnSelect>
       <Container fluid>
-        <motion.img
-          src={Logo}
-          alt=""
-          width="80px"
-          whileHover={{ scale: 1.5 }}
-        />
-
+        <Link to="/">
+          <motion.img
+            src={Logo}
+            alt=""
+            width="80px"
+            whileHover={{ scale: 1.5 }}
+          />
+        </Link>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           className="toggle-bar"
