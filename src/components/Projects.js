@@ -40,7 +40,7 @@ export const Projects = () => {
                 rel="noreferrer"
                 className="text-info"
               >
-                Live Site
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
               {"  "} |{" "}
               <a
@@ -49,7 +49,7 @@ export const Projects = () => {
                 rel="noreferrer"
                 className="text-info"
               >
-                GITHUB
+                <i class="fa-brands fa-github"></i>
               </a>
             </div>
           </div>
@@ -60,7 +60,7 @@ export const Projects = () => {
               src={ProjectSearchMovie}
               alt="react-calculator"
               width="90%"
-              className="mt-4"
+              className="mb-3"
             />
           </div>
           <div className="col-md mt-5 py-5 ">
@@ -89,7 +89,7 @@ export const Projects = () => {
                 rel="noreferrer"
                 className="text-info"
               >
-                Live Site
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
               {"  "} |{" "}
               <a
@@ -98,7 +98,7 @@ export const Projects = () => {
                 rel="noreferrer"
                 className="text-info"
               >
-                GITHUB
+                <i class="fa-brands fa-github"></i>
               </a>
             </div>
           </div>
@@ -121,13 +121,13 @@ export const Projects = () => {
               task list and total hour of bad task list.
             </p>
             <p>I create this app using cutom css and vanilla javascript.</p>
-            <div>
+            <div id="anchor">
               <a
                 href="https://react-task-manager-chi.vercel.app/"
                 target="_blank"
                 className="text-info"
               >
-                Live Site
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
               {"  "} |{" "}
               <a
@@ -135,8 +135,11 @@ export const Projects = () => {
                 target="_blank"
                 className="text-info"
               >
-                GITHUB
+                <i class="fa-brands fa-github"></i>
               </a>
+              <motion.a href="#navbar" id="arrow" whileHover={{ scale: 1.1 }}>
+                <i class="fa-solid fa-arrow-up"></i>
+              </motion.a>
             </div>
           </div>
         </div>

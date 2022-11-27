@@ -6,28 +6,12 @@ import { Projects } from "./components/Projects";
 import { AboutMe } from "./components/AboutMe";
 import { Contact } from "./components/Contact";
 import { Layout } from "./components/Layout";
-import { motion } from "framer-motion";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const draw = {
-  hidden: { pathLength: 0, opacity: 0 },
-  visible: (i) => {
-    const delay = 1 + i * 0.5;
-    return {
-      pathLength: 1,
-      opacity: 1,
-      transition: {
-        pathLength: { delay, type: "spring", duration: 1.5, bounce: 0 },
-        opacity: { delay, duration: 0.01 },
-      },
-    };
-  },
-};
-
 function App() {
   return (
-    <div class="wrapper">
+    <div className="wrapper">
       <BrowserRouter>
         <Routes>
           <Route
@@ -38,6 +22,9 @@ function App() {
               </Layout>
             }
           />
+        </Routes>
+
+        <Routes>
           <Route
             path="/skills"
             element={
@@ -46,6 +33,9 @@ function App() {
               </Layout>
             }
           />
+        </Routes>
+
+        <Routes>
           <Route
             path="/projects"
             element={
@@ -54,6 +44,9 @@ function App() {
               </Layout>
             }
           />
+        </Routes>
+
+        <Routes>
           <Route
             path="/about-me"
             element={
@@ -62,6 +55,9 @@ function App() {
               </Layout>
             }
           />
+        </Routes>
+
+        <Routes>
           <Route
             path="/contactme"
             element={
@@ -72,10 +68,6 @@ function App() {
           />
         </Routes>
       </BrowserRouter>
-
-      <motion.a href="#navbar" id="arrow" whileHover={{ scale: 1.1 }}>
-        <i class="fa-solid fa-arrow-up"></i>
-      </motion.a>
     </div>
   );
 }

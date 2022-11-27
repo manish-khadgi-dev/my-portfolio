@@ -26,10 +26,10 @@ export const Skills = () => {
               <i className="fa-brands fa-react text-primary bg-dark"></i> React
             </div>
             <div>
-              <i className="fa-brands fa-github text-white bg-dark"> </i>Github
+              <i className="fa-brands fa-github text-info bg-dark"> </i>Github
             </div>
             <div>
-              <i className="fa-solid fa-terminal text-white"></i> Terminal
+              <i className="fa-solid fa-terminal text-warning"></i> Terminal
             </div>
             <div>
               <i class="fa-solid fa-mobile-screen-button text-primary"></i>{" "}
