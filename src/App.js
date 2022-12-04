@@ -6,18 +6,12 @@ import { Projects } from "./components/Projects";
 import { AboutMe } from "./components/AboutMe";
 import { Contact } from "./components/Contact";
 import { Layout } from "./components/Layout";
-import video from "./assets/background-video.mp4";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="wrapper">
-      <section className="col-sm-3  showcase">
-        <video autoPlay loop muted>
-          <source src={video} type="video/mp4" />
-        </video>
-      </section>
       <BrowserRouter>
         <Routes>
           <Route

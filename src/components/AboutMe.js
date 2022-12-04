@@ -14,7 +14,7 @@ export const AboutMe = () => {
         <div className="col-md-6 mt-5">
           <p className="mt-5">
             Hello! My name is Manish Khadgi. I graduated from Federation
-            University in Bachelors of Information Teachnology. Currently, I am
+            University in Bachelors of Information Technology. Currently, I am
             enrolled in Dented Code Academy Bootcamp to pursue career in
             Software Development.I enjoy developing live Application on the
             internet.
