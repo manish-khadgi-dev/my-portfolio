@@ -11,7 +11,7 @@ export const Hero = () => {
       <section className="hero">
         <div className="container">
           <div className="row">
-            <div className="col-md-9 pt-3 mt-5">
+            <div className="col-md-9 pt-3 mt-4">
               Hi, i am <p />
               <span className="fw-bold ">
                 <motion.h1

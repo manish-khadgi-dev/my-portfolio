@@ -1,7 +1,7 @@
 .wrapper{
    
 
-    color:#10a5e0;  
+    color:#c9cdcf;  
     background: linear-gradient(-45deg, #000000, #020001, #000202, #15302a);
         background-size: 400% 400%;
         animation: gradient 15s ease infinite;
@@ -169,6 +169,7 @@ i:hover{
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+   
    
 
 }
