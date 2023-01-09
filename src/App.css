@@ -1,7 +1,25 @@
 .wrapper{
-    background:#01050b;
+   
 
-    color:#8892b0;  
+    color:#10a5e0;  
+    background: linear-gradient(-45deg, #000000, #020001, #000202, #15302a);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+      
+    
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
  a {
@@ -14,6 +32,7 @@
 .hero {
    
     min-height:83vh;
+    min-width: 100vh;
     }
 
 div.col-md-9.pt-3.mt-5{
@@ -39,7 +58,7 @@ left: -5px;
 }
 
 .topNav{
-    background: rgba(58, 55, 55, 0.344);
+    background: rgba(144, 135, 135, 0.226);
     margin-top: -10px;
     
    
@@ -107,6 +126,9 @@ div.col-md-6 img{
 
 /* projects Icons */
 
+
+
+
 i{
  filter: grayscale();
  font-size: 1.6rem;
@@ -143,10 +165,11 @@ i:hover{
 }
 
 .footer{
-    background: rgba(58, 55, 55, 0.344);
+    background: rgba(144, 135, 135, 0.344);
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+   
 
 }
 
@@ -202,3 +225,15 @@ div#basic-navbar-nav.navbar-collapse.collapse.show #rectangle{
    /* min-height: 100vh; */
 
 }
+
+
+@import url('https://fonts.googleapis.com/css?family=Corben:700');
+
+h1 {
+    /* font-family: 'Corben', cursive; */
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1rem;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+}
+
